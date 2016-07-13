@@ -14,5 +14,5 @@ pages:
   - 'API':
       - 'Overview': 'api/overview.md'
   - 'Clients':
-      - 'PHP': 'php/index.md'
+      - 'PHP': 'clients/php/index.md'
   - 'Deprecated functionality': 'deprecated.md'
