@@ -9,10 +9,10 @@ use_directory_urls: false
 theme: readthedocs
 extra_css: ["https://fiware.org/style/fiware_readthedocs.css"]
 pages:
-  - Home: index.md
+  - 'Home': index.md
   - 'Getting Started': 'quick_start_guide.md'
   - 'API':
       - 'Overview': 'api/overview.md'
-  - 'Clients':
+  - 'API Clients':
       - 'PHP': 'clients/php/index.md'
   - 'Deprecated functionality': 'deprecated.md'
