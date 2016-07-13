@@ -1,0 +1,5652 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.0",
+    "title": "Figuardian API"
+  },
+  "basePath": "/api/v1",
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/global/Config/Languages/get": {
+      "get": {
+        "description": "Get one language by code",
+        "summary": "Scope global.Config.Languages.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Languages/get": {
+      "get": {
+        "description": "Get one language by code",
+        "summary": "Scope public.Config.Languages.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/Languages/get": {
+      "get": {
+        "description": "Get one language by code",
+        "summary": "Scope self.Config.Languages.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Languages/update": {
+      "post": {
+        "description": "Update one language by code",
+        "summary": "Scope global.Config.Languages.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Languages/delete": {
+      "post": {
+        "description": "Delete one language by code",
+        "summary": "Scope global.Config.Languages.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Languages/create": {
+      "post": {
+        "description": "Create one language",
+        "summary": "Scope global.Config.Languages.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Languages/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.Languages.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Languages/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Config.Languages.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/Languages/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Config.Languages.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/TransducersTypes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope public.Config.TransducersTypes.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/TransducersTypes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope self.Config.TransducersTypes.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/TransducersTypes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Config.TransducersTypes.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/TransducersTypes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Config.TransducersTypes.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/create": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/createuom": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.createuom",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/TransducersTypes/createuom": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Config.TransducersTypes.createuom",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/TransducersTypes/deleteuom": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Config.TransducersTypes.deleteuom",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/TransducersTypes/deleteuom": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Config.TransducersTypes.deleteuom",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/get": {
+      "get": {
+        "description": "Get one Uom by id",
+        "summary": "Scope global.Config.Uom.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Uom/get": {
+      "get": {
+        "description": "Get one Uom by id",
+        "summary": "Scope public.Config.Uom.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/Uom/get": {
+      "get": {
+        "description": "Get one Uom by id",
+        "summary": "Scope self.Config.Uom.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/create": {
+      "post": {
+        "description": "Create Uom without language",
+        "summary": "Scope global.Config.Uom.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/update": {
+      "post": {
+        "description": "Update Uom without language",
+        "summary": "Scope global.Config.Uom.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/delete": {
+      "post": {
+        "description": "Metodo que remove uma unidade de medida",
+        "summary": "Scope global.Config.Uom.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/createlanguage": {
+      "post": {
+        "description": "Create Uom Language",
+        "summary": "Scope global.Config.Uom.createlanguage",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Uom/createlanguage": {
+      "post": {
+        "description": "Create Uom Language",
+        "summary": "Scope public.Config.Uom.createlanguage",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/updatelanguage": {
+      "post": {
+        "description": "Update Uom Language",
+        "summary": "Scope global.Config.Uom.updatelanguage",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Uom/updatelanguage": {
+      "post": {
+        "description": "Update Uom Language",
+        "summary": "Scope public.Config.Uom.updatelanguage",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/deletelanguage": {
+      "post": {
+        "description": "Delete Uom Language",
+        "summary": "Scope global.Config.Uom.deletelanguage",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Uom/deletelanguage": {
+      "post": {
+        "description": "Delete Uom Language",
+        "summary": "Scope public.Config.Uom.deletelanguage",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Config/Uom/all": {
+      "post": {
+        "description": "Return all uom with your languages",
+        "summary": "Scope global.Config.Uom.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Config/Uom/all": {
+      "post": {
+        "description": "Return all uom with your languages",
+        "summary": "Scope public.Config.Uom.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Config/Uom/all": {
+      "post": {
+        "description": "Return all uom with your languages",
+        "summary": "Scope self.Config.Uom.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/get": {
+      "get": {
+        "description": "Return one aplication area",
+        "summary": "Scope global.Devices.Aplicationarea.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/get": {
+      "get": {
+        "description": "Return one aplication area",
+        "summary": "Scope public.Devices.Aplicationarea.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/get": {
+      "get": {
+        "description": "Return one aplication area",
+        "summary": "Scope self.Devices.Aplicationarea.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/devices": {
+      "post": {
+        "description": "Devices list related to aplication area",
+        "summary": "Scope global.Devices.Aplicationarea.devices",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/devices": {
+      "post": {
+        "description": "Devices list related to aplication area",
+        "summary": "Scope public.Devices.Aplicationarea.devices",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/devices": {
+      "post": {
+        "description": "Devices list related to aplication area",
+        "summary": "Scope self.Devices.Aplicationarea.devices",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/delete": {
+      "post": {
+        "description": "Delete one aplication area",
+        "summary": "Scope global.Devices.Aplicationarea.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/delete": {
+      "post": {
+        "description": "Delete one aplication area",
+        "summary": "Scope self.Devices.Aplicationarea.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/deletelanguage": {
+      "post": {
+        "description": "Delete one language of aplication area on table `ws_aplication_area_ln`",
+        "summary": "Scope global.Devices.Aplicationarea.deletelanguage",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/deletelanguage": {
+      "post": {
+        "description": "Delete one language of aplication area on table `ws_aplication_area_ln`",
+        "summary": "Scope public.Devices.Aplicationarea.deletelanguage",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/deletelanguage": {
+      "post": {
+        "description": "Delete one language of aplication area on table `ws_aplication_area_ln`",
+        "summary": "Scope self.Devices.Aplicationarea.deletelanguage",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/createlanguage": {
+      "post": {
+        "description": "Insert one aplication area table and language",
+        "summary": "Scope global.Devices.Aplicationarea.createlanguage",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/createlanguage": {
+      "post": {
+        "description": "Insert one aplication area table and language",
+        "summary": "Scope public.Devices.Aplicationarea.createlanguage",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/createlanguage": {
+      "post": {
+        "description": "Insert one aplication area table and language",
+        "summary": "Scope self.Devices.Aplicationarea.createlanguage",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/create": {
+      "post": {
+        "description": "Create index in aplication area table",
+        "summary": "Scope global.Devices.Aplicationarea.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/create": {
+      "post": {
+        "description": "Create index in aplication area table",
+        "summary": "Scope self.Devices.Aplicationarea.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/update": {
+      "post": {
+        "description": "Update aplication area language",
+        "summary": "Scope global.Devices.Aplicationarea.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/update": {
+      "post": {
+        "description": "Update aplication area language",
+        "summary": "Scope self.Devices.Aplicationarea.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/all": {
+      "post": {
+        "description": "Function all return all objects aplication area by filter",
+        "summary": "Scope global.Devices.Aplicationarea.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/all": {
+      "post": {
+        "description": "Function all return all objects aplication area by filter",
+        "summary": "Scope public.Devices.Aplicationarea.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/all": {
+      "post": {
+        "description": "Function all return all objects aplication area by filter",
+        "summary": "Scope self.Devices.Aplicationarea.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/set": {
+      "post": {
+        "description": "Associates a device to an area aplication",
+        "summary": "Scope global.Devices.Aplicationarea.set",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/set": {
+      "post": {
+        "description": "Associates a device to an area aplication",
+        "summary": "Scope public.Devices.Aplicationarea.set",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/set": {
+      "post": {
+        "description": "Associates a device to an area aplication",
+        "summary": "Scope self.Devices.Aplicationarea.set",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Aplicationarea/unsetarea": {
+      "post": {
+        "description": "Remove the associates a device to an area aplication",
+        "summary": "Scope global.Devices.Aplicationarea.unsetarea",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Aplicationarea/unsetarea": {
+      "post": {
+        "description": "Remove the associates a device to an area aplication",
+        "summary": "Scope public.Devices.Aplicationarea.unsetarea",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Aplicationarea/unsetarea": {
+      "post": {
+        "description": "Remove the associates a device to an area aplication",
+        "summary": "Scope self.Devices.Aplicationarea.unsetarea",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Attributes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope global.Devices.Attributes.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Attributes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope public.Devices.Attributes.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Attributes/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope self.Devices.Attributes.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Attributes/create": {
+      "post": {
+        "description": "Método que cadastra atributos de um device",
+        "summary": "Scope global.Devices.Attributes.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Attributes/create": {
+      "post": {
+        "description": "Método que cadastra atributos de um device",
+        "summary": "Scope self.Devices.Attributes.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Attributes/update": {
+      "post": {
+        "description": "Método que cadastra atributos de um device",
+        "summary": "Scope global.Devices.Attributes.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Attributes/update": {
+      "post": {
+        "description": "Método que cadastra atributos de um device",
+        "summary": "Scope self.Devices.Attributes.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Attributes/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.Attributes.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Attributes/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.Attributes.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Attributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.Attributes.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Attributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Devices.Attributes.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Attributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.Attributes.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.Context.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Devices.Context.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.Context.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Context/create": {
+      "post": {
+        "description": "Create a entity from a single contextElements list-value",
+        "summary": "Scope global.Devices.Context.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Context/create": {
+      "post": {
+        "description": "Create a entity from a single contextElements list-value",
+        "summary": "Scope self.Devices.Context.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Context/delete": {
+      "post": {
+        "description": "@param int $entityId",
+        "summary": "Scope global.Devices.Context.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Context/delete": {
+      "post": {
+        "description": "@param int $entityId",
+        "summary": "Scope self.Devices.Context.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope global.Devices.Context.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope public.Devices.Context.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope self.Devices.Context.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Context/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.Context.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Context/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.Context.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/all": {
+      "post": {
+        "description": "Obtem uma lista de",
+        "summary": "Scope global.Devices.Main.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Main/all": {
+      "post": {
+        "description": "Obtem uma lista de",
+        "summary": "Scope public.Devices.Main.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/all": {
+      "post": {
+        "description": "Obtem uma lista de",
+        "summary": "Scope self.Devices.Main.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/get": {
+      "get": {
+        "description": "Obtém um device de acordo com o master scope",
+        "summary": "Scope global.Devices.Main.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Main/get": {
+      "get": {
+        "description": "Obtém um device de acordo com o master scope",
+        "summary": "Scope public.Devices.Main.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/get": {
+      "get": {
+        "description": "Obtém um device de acordo com o master scope",
+        "summary": "Scope self.Devices.Main.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/aplicationarea": {
+      "post": {
+        "description": "Return all aplication area related by device id",
+        "summary": "Scope global.Devices.Main.aplicationarea",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Main/aplicationarea": {
+      "post": {
+        "description": "Return all aplication area related by device id",
+        "summary": "Scope public.Devices.Main.aplicationarea",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/aplicationarea": {
+      "post": {
+        "description": "Return all aplication area related by device id",
+        "summary": "Scope self.Devices.Main.aplicationarea",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/update": {
+      "post": {
+        "description": "Método responsável por atualizar o dispositivo",
+        "summary": "Scope global.Devices.Main.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/update": {
+      "post": {
+        "description": "Método responsável por atualizar o dispositivo",
+        "summary": "Scope self.Devices.Main.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.Main.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.Main.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/create": {
+      "post": {
+        "description": "Método responsável por inserir um dispositivo",
+        "summary": "Scope global.Devices.Main.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/create": {
+      "post": {
+        "description": "Método responsável por inserir um dispositivo",
+        "summary": "Scope self.Devices.Main.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Main/context": {
+      "post": {
+        "description": "Get Context Value from device entity",
+        "summary": "Scope global.Devices.Main.context",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Main/context": {
+      "post": {
+        "description": "Get Context Value from device entity",
+        "summary": "Scope public.Devices.Main.context",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Main/context": {
+      "post": {
+        "description": "Get Context Value from device entity",
+        "summary": "Scope self.Devices.Main.context",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Network/all": {
+      "post": {
+        "description": "Lista todas as redes que o dispositivo faz parte",
+        "summary": "Scope global.Devices.Network.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Network/all": {
+      "post": {
+        "description": "Lista todas as redes que o dispositivo faz parte",
+        "summary": "Scope public.Devices.Network.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Network/all": {
+      "post": {
+        "description": "Lista todas as redes que o dispositivo faz parte",
+        "summary": "Scope self.Devices.Network.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Network/create": {
+      "post": {
+        "description": "Cria um vínculo entre dipositivo e a rede, obrigatório passar o id do dispositivo e da ramificação",
+        "summary": "Scope global.Devices.Network.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Network/create": {
+      "post": {
+        "description": "Cria um vínculo entre dipositivo e a rede, obrigatório passar o id do dispositivo e da ramificação",
+        "summary": "Scope self.Devices.Network.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Network/delete": {
+      "post": {
+        "description": "Dado o id do vínculo exclui.",
+        "summary": "Scope global.Devices.Network.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Network/delete": {
+      "post": {
+        "description": "Dado o id do vínculo exclui.",
+        "summary": "Scope self.Devices.Network.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Network/get": {
+      "get": {
+        "description": "Dado o id do dispositivo e o vínculo retorna os dados relativos a inteiração com a rede, se apenas um valor for passado na url",
+        "summary": "Scope global.Devices.Network.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Network/get": {
+      "get": {
+        "description": "Dado o id do dispositivo e o vínculo retorna os dados relativos a inteiração com a rede, se apenas um valor for passado na url",
+        "summary": "Scope public.Devices.Network.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Network/get": {
+      "get": {
+        "description": "Dado o id do dispositivo e o vínculo retorna os dados relativos a inteiração com a rede, se apenas um valor for passado na url",
+        "summary": "Scope self.Devices.Network.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Network/update": {
+      "post": {
+        "description": "Dado o id do vinculo com dispositivo Atualiza  a ramificação",
+        "summary": "Scope global.Devices.Network.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Network/update": {
+      "post": {
+        "description": "Dado o id do vinculo com dispositivo Atualiza  a ramificação",
+        "summary": "Scope self.Devices.Network.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/TransducerAttributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.TransducerAttributes.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/TransducerAttributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Devices.TransducerAttributes.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/TransducerAttributes/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.TransducerAttributes.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/TransducerAttributes/create": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.TransducerAttributes.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/TransducerAttributes/create": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.TransducerAttributes.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/TransducerAttributes/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.TransducerAttributes.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/TransducerAttributes/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.TransducerAttributes.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/TransducerAttributes/get": {
+      "get": {
+        "description": "Based on its ID, returns an transducer attribute.",
+        "summary": "Scope global.Devices.TransducerAttributes.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/TransducerAttributes/get": {
+      "get": {
+        "description": "Based on its ID, returns an transducer attribute.",
+        "summary": "Scope public.Devices.TransducerAttributes.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/TransducerAttributes/get": {
+      "get": {
+        "description": "Based on its ID, returns an transducer attribute.",
+        "summary": "Scope self.Devices.TransducerAttributes.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/TransducerAttributes/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Devices.TransducerAttributes.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/TransducerAttributes/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Devices.TransducerAttributes.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/all": {
+      "post": {
+        "description": "Return an array containing all transducers on the DB.",
+        "summary": "Scope global.Devices.Transducers.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Transducers/all": {
+      "post": {
+        "description": "Return an array containing all transducers on the DB.",
+        "summary": "Scope public.Devices.Transducers.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/all": {
+      "post": {
+        "description": "Return an array containing all transducers on the DB.",
+        "summary": "Scope self.Devices.Transducers.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/create": {
+      "post": {
+        "description": "Method to create an transducer in the DB.",
+        "summary": "Scope global.Devices.Transducers.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/create": {
+      "post": {
+        "description": "Method to create an transducer in the DB.",
+        "summary": "Scope self.Devices.Transducers.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/delete": {
+      "post": {
+        "description": "Remove, by an given ID, one transducerID.",
+        "summary": "Scope global.Devices.Transducers.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/delete": {
+      "post": {
+        "description": "Remove, by an given ID, one transducerID.",
+        "summary": "Scope self.Devices.Transducers.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/get": {
+      "get": {
+        "description": "Return an transducer based on an given ID.",
+        "summary": "Scope global.Devices.Transducers.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Transducers/get": {
+      "get": {
+        "description": "Return an transducer based on an given ID.",
+        "summary": "Scope public.Devices.Transducers.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/get": {
+      "get": {
+        "description": "Return an transducer based on an given ID.",
+        "summary": "Scope self.Devices.Transducers.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/update": {
+      "post": {
+        "description": "Updates the values of an transducer. If the master scope is setted as 'self', it looks for a transducer of the client Institution with the id passed as a parameter. If an entry is faund, then continues the DB operation.",
+        "summary": "Scope global.Devices.Transducers.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/update": {
+      "post": {
+        "description": "Updates the values of an transducer. If the master scope is setted as 'self', it looks for a transducer of the client Institution with the id passed as a parameter. If an entry is faund, then continues the DB operation.",
+        "summary": "Scope self.Devices.Transducers.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Transducers/attr": {
+      "post": {
+        "description": "Returns all of the attributes of a given Transducer ID.",
+        "summary": "Scope global.Devices.Transducers.attr",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Transducers/attr": {
+      "post": {
+        "description": "Returns all of the attributes of a given Transducer ID.",
+        "summary": "Scope public.Devices.Transducers.attr",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Transducers/attr": {
+      "post": {
+        "description": "Returns all of the attributes of a given Transducer ID.",
+        "summary": "Scope self.Devices.Transducers.attr",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Types/create": {
+      "post": {
+        "description": "Método que cadastra types de um device",
+        "summary": "Scope global.Devices.Types.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Types/create": {
+      "post": {
+        "description": "Método que cadastra types de um device",
+        "summary": "Scope self.Devices.Types.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Types/update": {
+      "post": {
+        "description": "Método que atualiza types de um device",
+        "summary": "Scope global.Devices.Types.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Types/update": {
+      "post": {
+        "description": "Método que atualiza types de um device",
+        "summary": "Scope self.Devices.Types.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Types/delete": {
+      "post": {
+        "description": "Metodo que remove type de um device",
+        "summary": "Scope global.Devices.Types.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Types/delete": {
+      "post": {
+        "description": "Metodo que remove type de um device",
+        "summary": "Scope self.Devices.Types.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Types/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope global.Devices.Types.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Types/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope public.Devices.Types.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Types/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope self.Devices.Types.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Devices/Types/all": {
+      "post": {
+        "description": "Function all return all objects types by filter",
+        "summary": "Scope global.Devices.Types.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Devices/Types/all": {
+      "post": {
+        "description": "Function all return all objects types by filter",
+        "summary": "Scope public.Devices.Types.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Devices/Types/all": {
+      "post": {
+        "description": "Function all return all objects types by filter",
+        "summary": "Scope self.Devices.Types.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Clients/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope public.Institutions.Clients.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/create": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/create": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Clients/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Institutions.Clients.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/delete": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/scopes": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Institutions.Clients.scopes",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Clients/scopes": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Institutions.Clients.scopes",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/scopes": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Institutions.Clients.scopes",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/grantscope": {
+      "post": {
+        "description": "Funcao que cria os scopes de determinado usuario",
+        "summary": "Scope global.Institutions.Clients.grantscope",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Clients/grantscope": {
+      "post": {
+        "description": "Funcao que cria os scopes de determinado usuario",
+        "summary": "Scope public.Institutions.Clients.grantscope",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/grantscope": {
+      "post": {
+        "description": "Funcao que cria os scopes de determinado usuario",
+        "summary": "Scope self.Institutions.Clients.grantscope",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Clients/revokescope": {
+      "post": {
+        "description": "Fu",
+        "summary": "Scope global.Institutions.Clients.revokescope",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Clients/revokescope": {
+      "post": {
+        "description": "Fu",
+        "summary": "Scope public.Institutions.Clients.revokescope",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Clients/revokescope": {
+      "post": {
+        "description": "Fu",
+        "summary": "Scope self.Institutions.Clients.revokescope",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Main/get": {
+      "get": {
+        "description": "Get one institution and return with master client",
+        "summary": "Scope global.Institutions.Main.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Main/get": {
+      "get": {
+        "description": "Get one institution and return with master client",
+        "summary": "Scope public.Institutions.Main.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Main/get": {
+      "get": {
+        "description": "Get one institution and return with master client",
+        "summary": "Scope self.Institutions.Main.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Main/update": {
+      "post": {
+        "description": "Update one institution",
+        "summary": "Scope global.Institutions.Main.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Main/update": {
+      "post": {
+        "description": "Update one institution",
+        "summary": "Scope self.Institutions.Main.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Main/delete": {
+      "post": {
+        "description": "Delete one institution",
+        "summary": "Scope global.Institutions.Main.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Main/delete": {
+      "post": {
+        "description": "Delete one institution",
+        "summary": "Scope self.Institutions.Main.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Main/create": {
+      "post": {
+        "description": "Insert new institution and client master",
+        "summary": "Scope global.Institutions.Main.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Main/create": {
+      "post": {
+        "description": "Insert new institution and client master",
+        "summary": "Scope self.Institutions.Main.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Institutions/Main/all": {
+      "post": {
+        "description": "Function all to institution",
+        "summary": "Scope global.Institutions.Main.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Institutions/Main/all": {
+      "post": {
+        "description": "Function all to institution",
+        "summary": "Scope public.Institutions.Main.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Institutions/Main/all": {
+      "post": {
+        "description": "Function all to institution",
+        "summary": "Scope self.Institutions.Main.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/all": {
+      "post": {
+        "description": "Lista todos as ramificações de uma rede de dispositivo com base no id da rede",
+        "summary": "Scope global.Network.Branch.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Branch/all": {
+      "post": {
+        "description": "Lista todos as ramificações de uma rede de dispositivo com base no id da rede",
+        "summary": "Scope public.Network.Branch.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/all": {
+      "post": {
+        "description": "Lista todos as ramificações de uma rede de dispositivo com base no id da rede",
+        "summary": "Scope self.Network.Branch.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/create": {
+      "post": {
+        "description": "Cria uma ramificação na rede",
+        "summary": "Scope global.Network.Branch.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/create": {
+      "post": {
+        "description": "Cria uma ramificação na rede",
+        "summary": "Scope self.Network.Branch.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/delete": {
+      "post": {
+        "description": "Deleta uma ramificação e todos seus vínculos com devices",
+        "summary": "Scope global.Network.Branch.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/delete": {
+      "post": {
+        "description": "Deleta uma ramificação e todos seus vínculos com devices",
+        "summary": "Scope self.Network.Branch.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/get": {
+      "get": {
+        "description": "Obtém informações sobre uma ramificação dado o id",
+        "summary": "Scope global.Network.Branch.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Branch/get": {
+      "get": {
+        "description": "Obtém informações sobre uma ramificação dado o id",
+        "summary": "Scope public.Network.Branch.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/get": {
+      "get": {
+        "description": "Obtém informações sobre uma ramificação dado o id",
+        "summary": "Scope self.Network.Branch.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/update": {
+      "post": {
+        "description": "Atualiza informações de uma ramificação dado id e os valores.",
+        "summary": "Scope global.Network.Branch.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/update": {
+      "post": {
+        "description": "Atualiza informações de uma ramificação dado id e os valores.",
+        "summary": "Scope self.Network.Branch.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Branch/devices": {
+      "post": {
+        "description": "Retorna dispositivos de uma ramificação",
+        "summary": "Scope global.Network.Branch.devices",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Branch/devices": {
+      "post": {
+        "description": "Retorna dispositivos de uma ramificação",
+        "summary": "Scope public.Network.Branch.devices",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Branch/devices": {
+      "post": {
+        "description": "Retorna dispositivos de uma ramificação",
+        "summary": "Scope self.Network.Branch.devices",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/all": {
+      "post": {
+        "description": "Retorna todas as Redes de Dispositivos",
+        "summary": "Scope global.Network.Main.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Main/all": {
+      "post": {
+        "description": "Retorna todas as Redes de Dispositivos",
+        "summary": "Scope public.Network.Main.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/all": {
+      "post": {
+        "description": "Retorna todas as Redes de Dispositivos",
+        "summary": "Scope self.Network.Main.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/create": {
+      "post": {
+        "description": "Cria uma nova rede de dispositvos",
+        "summary": "Scope global.Network.Main.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/create": {
+      "post": {
+        "description": "Cria uma nova rede de dispositvos",
+        "summary": "Scope self.Network.Main.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/delete": {
+      "post": {
+        "description": "Deleta uma redee todas suas ramificações e vínculos com dispositivo",
+        "summary": "Scope global.Network.Main.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/delete": {
+      "post": {
+        "description": "Deleta uma redee todas suas ramificações e vínculos com dispositivo",
+        "summary": "Scope self.Network.Main.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/get": {
+      "get": {
+        "description": "Obtém detalhes uma rede de dispositivo",
+        "summary": "Scope global.Network.Main.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Main/get": {
+      "get": {
+        "description": "Obtém detalhes uma rede de dispositivo",
+        "summary": "Scope public.Network.Main.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/get": {
+      "get": {
+        "description": "Obtém detalhes uma rede de dispositivo",
+        "summary": "Scope self.Network.Main.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/update": {
+      "post": {
+        "description": "Atualiza detalhes de uma rede de dispositivo",
+        "summary": "Scope global.Network.Main.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/update": {
+      "post": {
+        "description": "Atualiza detalhes de uma rede de dispositivo",
+        "summary": "Scope self.Network.Main.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Network/Main/devices": {
+      "post": {
+        "description": "Retorna todos os dispositivos de uma rede agrupados pelos seus branchs",
+        "summary": "Scope global.Network.Main.devices",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Network/Main/devices": {
+      "post": {
+        "description": "Retorna todos os dispositivos de uma rede agrupados pelos seus branchs",
+        "summary": "Scope public.Network.Main.devices",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Network/Main/devices": {
+      "post": {
+        "description": "Retorna todos os dispositivos de uma rede agrupados pelos seus branchs",
+        "summary": "Scope self.Network.Main.devices",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Orion.Context.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Orion/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Orion.Context.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Context/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Orion.Context.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Context/create": {
+      "post": {
+        "description": "Create a entity from a single contextElements list-value",
+        "summary": "Scope global.Orion.Context.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Context/create": {
+      "post": {
+        "description": "Create a entity from a single contextElements list-value",
+        "summary": "Scope self.Orion.Context.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Context/delete": {
+      "post": {
+        "description": "Entities can be deleted using DELETE /v1/global/context/{id} (in case the entity id univocally identifies the entity)",
+        "summary": "Scope global.Orion.Context.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Context/delete": {
+      "post": {
+        "description": "Entities can be deleted using DELETE /v1/global/context/{id} (in case the entity id univocally identifies the entity)",
+        "summary": "Scope self.Orion.Context.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope global.Orion.Context.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Orion/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope public.Orion.Context.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Context/get": {
+      "get": {
+        "description": "This methodo must get entity by type, it's not possible to get entity using only ID as convenience.",
+        "summary": "Scope self.Orion.Context.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Context/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Orion.Context.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Context/update": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Orion.Context.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Subscriptions/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope global.Orion.Subscriptions.all",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Orion/Subscriptions/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope public.Orion.Subscriptions.all",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Subscriptions/all": {
+      "post": {
+        "description": "",
+        "summary": "Scope self.Orion.Subscriptions.all",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Subscriptions/create": {
+      "post": {
+        "description": "Cria uma subscrição no orion context broker dado o objeto conforme documentação",
+        "summary": "Scope global.Orion.Subscriptions.create",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Subscriptions/create": {
+      "post": {
+        "description": "Cria uma subscrição no orion context broker dado o objeto conforme documentação",
+        "summary": "Scope self.Orion.Subscriptions.create",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Subscriptions/delete": {
+      "post": {
+        "description": "Usubscribe a subscription",
+        "summary": "Scope global.Orion.Subscriptions.delete",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Subscriptions/delete": {
+      "post": {
+        "description": "Usubscribe a subscription",
+        "summary": "Scope self.Orion.Subscriptions.delete",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Subscriptions/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope global.Orion.Subscriptions.get",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/public/Orion/Subscriptions/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope public.Orion.Subscriptions.get",
+        "tags": {
+          "name": "public"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Subscriptions/get": {
+      "get": {
+        "description": "",
+        "summary": "Scope self.Orion.Subscriptions.get",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/global/Orion/Subscriptions/update": {
+      "post": {
+        "description": "Update an subscription's throttling, duration or/and notifyConditions",
+        "summary": "Scope global.Orion.Subscriptions.update",
+        "tags": {
+          "name": "global"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    },
+    "/self/Orion/Subscriptions/update": {
+      "post": {
+        "description": "Update an subscription's throttling, duration or/and notifyConditions",
+        "summary": "Scope self.Orion.Subscriptions.update",
+        "tags": {
+          "name": "self"
+        },
+        "responses": {
+          "200": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/Ok"
+            }
+          },
+          "default": {
+            "description": "error payload",
+            "schema": {
+              "$ref": "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Ok": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "ErrorModel": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "code": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 600
+        }
+      }
+    }
+  }
+}
