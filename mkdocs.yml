@@ -1,7 +1,7 @@
-site_name: Vm9-Figuarian
+site_name:  Vm9-Figuardian
 site_url: http://figuardian-api-doc.readthedocs.org/
 repo_url: https://github.com/telefonicaid/fiware-orion.git
-site_description: Orion Context Broker Documentation
+site_description: Fi-Guardian API Documentation
 docs_dir: docs
 site_dir: html
 markdown_extensions: [toc,fenced_code]
